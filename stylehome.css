@@ -1,0 +1,73 @@
+#block1{
+background-image:url('pic1.jpg');
+
+height:20%;
+width:100%;
+font-family:cursive;
+font-size:30; 
+text-align:center;
+color:red;
+
+
+
+}
+#block2{
+background-color:orange;
+height:20%;
+top:20%;
+width:100%;
+font-size:20;
+text-decoration:none;
+
+}
+A{
+  text-decoration: none;
+}
+
+
+#block3{
+background-size:cover;
+background-color:#E6E6FA;
+height:80%;
+width:100%;
+font-family:cursive;
+font-size:16; 
+text-align:left;
+color:black;
+font-style:bold;
+
+
+}
+#I8{
+position:absolute;
+left:40%;
+top:70%;
+background-color:red;
+height:3em;
+width:10em;
+color:white;
+font-size:20;
+}
+#list1{
+float:left; 
+list-style: none;
+   background-color:;
+  padding:35px;
+  margin:10px;
+  box-shadow:10px 2px 5px gray;
+}
+#list1 ul {
+  list-style: none;
+  display:none;
+  position:absolute;
+  left:25%;
+}
+#list1 li  {
+  background-color:;
+  padding:5px;
+  margin:1px;
+  box-shadow:10px 2px 5px gray;
+}
+#list1:hover ul {
+  list-style: none;
+  display:block;

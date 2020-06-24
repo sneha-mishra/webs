@@ -1,0 +1,59 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+<script type="text/javascript">
+
+
+	var slideimages = new Array()
+	slideimages[0] = new Image()
+	slideimages[0].src = "sir1.jpg"
+	slideimages[1] = new Image()
+	slideimages[1].src = "sir3.jpg"
+	slideimages[2] = new Image()
+	slideimages[2].src = "sir6.jpg"
+	slideimages[3] = new Image()
+	slideimages[3].src = "g11.jpg"
+
+
+
+</script>
+
+</head>
+<body>
+	<div id="block1"><marquee>IITK Internship !!!!</marquee></div>
+	<div id="block2">
+	<ul>
+	<li id="list1">Home</li>
+	<li id="list1"><a href="experience.html" target=_self>Experience</a></li>
+	<li id="list1"><a href="researchfocus.html" target=_self>Research Focus
+		<ul>
+            <li id="list2"><a href = "ai.html" target=self>Artificial Intelligence</a></li>
+			<li id="list2"><a href = "machine.html" target=self>Machine Learning</a></li>
+			<li id="list2"><a href = "bigdata.html" target=self>Big Data</a></li>
+		</ul></a>
+	</li>
+	    <li id="list1"><a href="order.html" target=_self>publication</a></li>
+        <li id="list1"><a href="gallery.html" target=_self>Gallery</a></li>
+	<li id="list1"><a href="contact.html" target=_self>Contact Us</a></li>
+        <li id="list1"><a href="form_reg.html" target=_self>Registration</li>
+	</div>
+	<div id="block3">
+	<img src="1.jpg"  height=100%  width=100%  id="slide"/>
+
+<script>
+	var step=0
+	function slideit(){
+	document.getElementById('slide').src=slideimages[step].src
+	if(step<7)
+	step++
+	else
+	step=0
+	setTimeout("slideit()",2000)
+	}
+	slideit()
+</script>
+
+	</div>
+</body>
+
+</html>
